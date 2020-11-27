@@ -15,16 +15,16 @@ The 2nd entry does not have to be the same name as the file name in the dictiona
 
 The following commands can be used to interact with and edit the file system by running textInterface.java:
 
-get w: Returns a file with name w
+**get w:** Returns a file with name w
 
-remove w k: Remove file with name w of kind k (where kind can be any one of: picture, sound, program, url, definition)
+**remove w k:** Remove file with name w of kind k (where kind can be any one of: picture, sound, program, url, definition)
 
-add w k c: Adds a file with name w and of type k and content c (follow inputFile formatting)
+**add w k c:** Adds a file with name w and of type k and content c (follow inputFile formatting)
 
-list prefix: Returns a list of files whose names contain prefix
+**list prefix:** Returns a list of files whose names contain prefix
 
-first: Returns the first item stored in the dictionary
+**first:** Returns the first item stored in the dictionary
 
-last: Returns the last item stored in the dictionary
+**last:** Returns the last item stored in the dictionary
 
-end: Terminates the program
+**end:** Terminates the program
