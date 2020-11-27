@@ -20,5 +20,3 @@ matrices
 Matrices.html
 ohCanada
 OhCanada.mid
-course
-https://www.csd.uwo.ca/Courses/CS2210a/index.html
