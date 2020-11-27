@@ -4,8 +4,11 @@ A small-scale file managing system utilizing a binary search tree implementation
 Originally created as an academic project for a Data Structures and Algorithms class. Only non-original files are the Reader.java files which allow the system to display content of various file extensions. InputFile.txt is a placeholder input file that the program will take in as it constructs the initial ordered dictionary. To use your own files, rewrite inputFile in the following format:
 
 File Name1 in Dictionary
+
 File Name1.extension
+
 File Name2
+
 File Name2.extension
 
 The 2nd entry does not have to be the same name as the file name in the dictionary but it must directly proceed the name entry. Program is compatible with .txt, .html, .exe, .jpg, .gif, .wav, and .mid files. After storing, files will be classified into various types (sound, picture, program etc) based on their respective extensions. Files of type "definition" can also be stored, where the line following the file name can simply be a string stored within double quotes. Make sure files are placed outside the src and bin folders along with the inputFile itself.
